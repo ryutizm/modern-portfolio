@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 
-const Home: NextPage = () => {
+const Home: any = () => {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen">
       <Head>
@@ -29,6 +29,6 @@ const Home: NextPage = () => {
       {/* Contact Me */}
     </div>
   );
-}
+};
 
 export default Home;

@@ -1,12 +1,11 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
+const Home: NextPage = () => {
   return (
-    <div>
+    <div className="bg-[rgb(36,36,36)] text-white h-screen">
       <Head>
         <title>ryutizm portfolio</title>
       </Head>
@@ -15,6 +14,9 @@ export default function Home() {
       <Header />
 
       {/* Hero */}
+      <section id="hero">
+        <Hero />
+      </section>
 
       {/* About */}
 
@@ -28,3 +30,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;

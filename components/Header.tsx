@@ -17,9 +17,8 @@ const Header = ({}: Props) => {
           opacity: 1,
           scale: 1,
         }}
-        transition={{
-          duration: 1.5,
-        }}
+        transition={{duration: 1.5}}
+
         className="flex flex-row items-center"
       >
         {/* Social Icons */}
@@ -41,7 +40,21 @@ const Header = ({}: Props) => {
         <p>This is a header</p>
       </motion.div>
 
-      <div>
+      <motion.div
+        initial={{
+          x: 500,
+          opacity: 0,
+          scale: 0.5,
+        }}
+        animate={{
+          x: 0,
+          opacity: 1,
+          scale: 1,
+        }}
+        transition={{duration: 1.5}}
+
+        className="flex flex-row items-center text-gray-300 cursor-pointer" 
+      >
         <SocialIcon
           className="cursor-pointer"
           network="email"
@@ -51,7 +64,7 @@ const Header = ({}: Props) => {
         <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
           Get In Touch
         </p>
-      </div>
+      </motion.div>
     </header>
   );
 };

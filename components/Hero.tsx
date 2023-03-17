@@ -16,12 +16,24 @@ const Hero = ({}: Props) => {
   });
 
   return (
-    <div>
+    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircle />
-      <h1>
-        <span>{text}</span>
-        <Cursor cursorColor="orange" />
-      </h1>
+      <img 
+        className="relative rounded-full h-32 w-32 mx-auto object-cover"
+        src="https://source.unsplash.com/random/" 
+        alt="自己紹介画像です。" 
+      />
+
+      <div>
+        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
+          Software Engineer
+        </h2>
+
+        <h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10">
+          <span className="mr-3">{text}</span>
+          <Cursor cursorColor="#F7AB0A" />
+        </h1>
+      </div>
 
     </div>
   );

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 
@@ -5,18 +6,12 @@ type Props = {};
 
 const Header = ({}: Props) => {
   return (
-    <header 
+    <header
       className="
-        sticky 
-        top-0 
-        p-5 
-        flex 
-        items-start 
-        justify-between 
-        max-w-7xl 
-        mx-auto 
-        z-20 
-        xl:items-center">
+      sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto 
+      z-20 xl:items-center"
+        
+    >
       <motion.div
         initial={{
           x: -500,
@@ -28,8 +23,7 @@ const Header = ({}: Props) => {
           opacity: 1,
           scale: 1,
         }}
-        transition={{duration: 1.5}}
-
+        transition={{ duration: 1.5 }}
         className="flex flex-row items-center"
       >
         {/* Social Icons */}
@@ -51,31 +45,31 @@ const Header = ({}: Props) => {
         <p>This is a header</p>
       </motion.div>
 
-      <motion.div
-        initial={{
-          x: 500,
-          opacity: 0,
-          scale: 0.5,
-        }}
-        animate={{
-          x: 0,
-          opacity: 1,
-          scale: 1,
-        }}
-        transition={{duration: 1.5}}
+        <motion.div
+          initial={{
+            x: 500,
+            opacity: 0,
+            scale: 0.5,
+          }}
+          animate={{
+            x: 0,
+            opacity: 1,
+            scale: 1,
+          }}
+          transition={{ duration: 1.5 }}
+          className="flex flex-row items-center text-gray-300 cursor-pointer"
+        >
+          <SocialIcon
+            className="cursor-pointer"
+            network="email"
+            fgColor="gray"
+            bgColor="transparent"
+          />
+          <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
+            Get In Touch
+          </p>
+        </motion.div>
 
-        className="flex flex-row items-center text-gray-300 cursor-pointer" 
-      >
-        <SocialIcon
-          className="cursor-pointer"
-          network="email"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
-          Get In Touch
-        </p>
-      </motion.div>
     </header>
   );
 };

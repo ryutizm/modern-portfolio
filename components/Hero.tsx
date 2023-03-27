@@ -13,16 +13,17 @@ const Hero = ({}: Props) => {
     ],
     loop: true,
     delaySpeed: 2000,
-
   });
 
   return (
-    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+    <div className="
+      h-screen flex flex-col items-center space-y-8 justify-center 
+      text-center overflow-hidden">
       <BackgroundCircle />
-      <img 
+      <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="https://source.unsplash.com/random/" 
-        alt="自己紹介画像です。" 
+        src="https://source.unsplash.com/random/"
+        alt="自己紹介画像です。"
       />
 
       <div className="z-20">
@@ -53,7 +54,6 @@ const Hero = ({}: Props) => {
           </Link>
         </div>
       </div>
-
     </div>
   );
 };

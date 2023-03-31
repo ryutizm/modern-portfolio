@@ -8,6 +8,7 @@ import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
+// import { animateScroll as scroll } from "react-scroll";
 
 const Home: NextPage = () => {
   return (
@@ -22,31 +23,31 @@ const Home: NextPage = () => {
 
       <Header />
 
-      <section id="hero" className="snap-end">
+      <section id="hero">
         <Hero />
       </section>
 
-      <section id="about" className="snap-center">
+      <section id="about" >
         <About />
       </section>
 
-      <section id="experience" className="snap-center">
+      <section id="experience" >
         <Experience />
       </section>
 
-      <section id="skills" className="snap-center">
+      <section id="skills" >
         <Skills />
       </section>
 
-      <section id="projects" className="snap-start">
+      <section id="projects">
         <Projects />
       </section>
 
-      <section id="contact" className="snap-start">
+      <section id="contact">
         <ContactMe />
       </section>
 
-      <Link href="#hero">
+      <Link href="#top">
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
             <img

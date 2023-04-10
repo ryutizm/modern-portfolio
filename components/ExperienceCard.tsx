@@ -6,10 +6,11 @@ const ExperienceCard = (props: Props) => {
   return (
     <article
       className="
-      flex flex-col rounded-lg items-center space-y-7
-      flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] 
-      snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 
-      cursor-pointer transition-opacity duration-200 overflow-hidden"
+      flex flex-col rounded-lg items-center space-y-7 
+      flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] 
+      snap-center bg-[#292929] p-10 hover:opacity-100 
+      opacity-40 cursor-pointer transition-opacity 
+      duration-200 overflow-hidden"
     >
       <motion.img
         initial={{
@@ -20,7 +21,7 @@ const ExperienceCard = (props: Props) => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         className="
-        w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px]
+        w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] 
         object-cover object-center"
         src="https://source.unsplash.com/random"
         alt=""

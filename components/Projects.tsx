@@ -11,9 +11,9 @@ const Projects = (props: Props) => {
       transition={{ duration: 1.5 }}
       className="
       h-screen relative flex overflow-hidden flex-col text-left md:flex-row
-      max-w-full justify-evenly mx-auto items-center z-0"
+      max-w-full justify-evenly mx-auto mt-20 items-center z-0"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-4 uppercase tracking-[20px] text-gray-500 text-2xl">
         Project
       </h3>
 
@@ -26,7 +26,7 @@ const Projects = (props: Props) => {
           <div
             className="
             w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center 
-            justify-center p-20 md:p-44 h-screen"
+            justify-center p-10 md:p-24 h-screen"
           >
             <motion.img
               initial={{
@@ -37,6 +37,7 @@ const Projects = (props: Props) => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               src="https://source.unsplash.com/random"
+              className="w-2/3 h-4/5"
               alt=""
             />
 

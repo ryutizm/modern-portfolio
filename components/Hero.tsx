@@ -17,17 +17,12 @@ const Hero = ({}: Props) => {
 
   return (
     <div className="
-      h-screen flex flex-col items-center space-y-8 justify-center 
+      h-screen flex flex-col items-center justify-center 
       text-center">
       <BackgroundCircle />
-      <img
-        className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="https://source.unsplash.com/random/"
-        alt="自己紹介画像です。"
-      />
 
       <div className="z-20">
-        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
+        <h2 className="text-lg uppercase text-gray-500 tracking-[15px] mt-6">
           Software Engineer
         </h2>
 

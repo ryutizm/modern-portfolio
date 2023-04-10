@@ -11,11 +11,11 @@ const About = (props: Props) => {
       className="
       flex flex-col relative h-screen 
       text-center md:text-left md:flex-row
-      max-w-7xl px-10 justify-evenly mx-auto items-center"
+      max-w-7xl px-10 justify-evenly mx-auto mt-20 items-center"
     >
       <h3
         className="
-        absolute top-24 uppercase 
+        absolute top-4 uppercase 
         tracking-[20px] text-gray-500 text-2xl"
       >
         About
@@ -35,7 +35,7 @@ const About = (props: Props) => {
         className="
           -mb-20 md:mb-0 flex-shrink-0 
           w-56 h-56 rounded-full object-cover
-          md:rounded-1g md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
+          md:rounded-1g md:w-96 md:h-96 xl:w-[600px] xl:h-[600px]"
       />
 
       <div className="space-y-10 ps-0 md:px-10">

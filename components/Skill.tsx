@@ -6,13 +6,14 @@ type Props = {
 
 const Skill = (directionLeft: Props) => {
   return (
-    <div className="group relative flex cursor-pointer">
+    <div className="group relative flex cursor-pointer rounded-lg">
       <motion.img
         initial={{
           x: directionLeft ? -200 : 200,
         }}
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
         src="https://source.unsplash.com/random"
         className="
           rounded-full border border-gray-500 object-cover w-24 h-24

@@ -8,7 +8,7 @@ const Hero = ({}: Props) => {
   const [text, count] = useTypewriter({
     words: [
       "Hi, the name's ryutizm",
-      "Guy who practice ts and react",
+      "Guy who love TS & React",
       "<ButLovesToCodeMore>",
     ],
     loop: true,
@@ -26,22 +26,22 @@ const Hero = ({}: Props) => {
           Software Engineer
         </h2>
 
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-2xl lg:text-6xl font-semibold p-10 whitespace-nowrap">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>
 
-        <div className="pt-5">
+        <div className="whitespace-nowrap">
           <Link href="#about">
-            <button className="heroButton">About</button>
+            <button className="heroButton sm:mr-5">About</button>
           </Link>
 
           <Link href="#experience">
-            <button className="heroButton">Experience</button>
+            <button className="heroButton sm:mr-5">Experience</button>
           </Link>
 
           <Link href="#skills">
-            <button className="heroButton">Skills</button>
+            <button className="heroButton sm:mr-5">Skills</button>
           </Link>
 
           <Link href="#projects">

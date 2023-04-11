@@ -21,7 +21,7 @@ const BackgroundCircle = (props: Props) => {
 
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover mt-28"
-        src="https://source.unsplash.com/random/"
+        src="/imgs/ayanokoji.png"
         alt="自己紹介画像です。"
       />
 

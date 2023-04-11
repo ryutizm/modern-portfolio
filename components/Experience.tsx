@@ -16,8 +16,8 @@ const Experience = (props: Props) => {
     >
       <h3
         className="
-        absolute top-1 uppercase tracking-[20px] 
-        text-gray-500 text-2xl"
+        absolute top-24 ml-6 uppercase 
+        tracking-[20px] text-gray-500 text-2xl"
       >
         Experience
       </h3>

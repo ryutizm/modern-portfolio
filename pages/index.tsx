@@ -8,14 +8,15 @@ import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
-// import { animateScroll as scroll } from "react-scroll";
+import SimpleSlider from "@/components/Slider";
+
 
 const Home: NextPage = () => {
   return (
     <div
       className="
       bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-x-hidden
-      overflow-scroll z-0 scrollbar scrollbar-track--400/20 scrollbar-thumb-[#600f18]/80"
+      overflow-scroll z-0"
     >
       <Head>
         <title>ryutizm portfolio</title>

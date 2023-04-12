@@ -24,7 +24,7 @@ const Experience = (props: Props) => {
 
       <div
         className="
-        w-full flex space-x-5 overflow-x-scroll p-10 mt-2
+        w-full flex space-x-5 overflow-x-scroll pb-2 mt-2
         snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 
         scrollbar-thumb-[#F7AB0A]/80"
       >

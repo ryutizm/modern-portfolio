@@ -8,7 +8,7 @@ const Header = ({}: Props) => {
   return (
     <header
       className="
-      sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto 
+      sticky top-0 px-5 pt-5 flex items-start justify-between max-w-7xl mx-auto 
       z-20 xl:items-center"
         
     >
@@ -42,7 +42,6 @@ const Header = ({}: Props) => {
           fgColor="gray"
           bgColor="transparent"
         />
-        <p>This is a header</p>
       </motion.div>
 
         <motion.div

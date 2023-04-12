@@ -7,8 +7,8 @@ const ExperienceCard = (props: Props) => {
     <article
       className="
       flex flex-col rounded-lg items-center space-y-7 
-      flex-shrink-0 h-auto w-[325px] md:w-[600px] xl:w-[900px] 
-      snap-center bg-[#322c2c] mt-24 p-10 hover:opacity-100 
+      flex-shrink-0 h-auto w-[325px] md:w-[600px] xl:w-[450px] 
+      snap-center bg-[#322c2c] mt-24 px-10 pt-5 pb-7 hover:opacity-100 
       opacity-40 cursor-pointer transition-opacity 
       duration-200 overflow-hidden"
     >
@@ -21,42 +21,26 @@ const ExperienceCard = (props: Props) => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         className="
-        w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] 
+        w-40 h-40 rounded-full xl:w-52 xl:h-52 
         object-cover object-center"
-        src="https://source.unsplash.com/random"
+        src="/imgs/rakuten-panda-experience.png"
         alt=""
       />
 
       <div className="px-0 md:px-10">
-        <h4 className="text-4xl font-light">CEO of Stan.</h4>
-        <p className="font-bold text-2xl mt-1">Stan.</p>
-        <div className="flex space-x-2 my-2">
-          <img
-            className="h-10 w-10 rounded-full"
-            src="https://cdn.sanity.io/images/ltuexkre/production\2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
-          />
-          <img
-            className="h-10 w-10 rounded-full"
-            src="https://cdn.sanity.io/images/ltuexkre/production\2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
-          />
-          <img
-            className="h-10 w-10 rounded-full"
-            src="https://cdn.sanity.io/images/ltuexkre/production\2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
-          />
-        </div>
+        <h4 className="text-4xl font-light">Tester for mobile App</h4>
+        <p className="font-bold text-2xl mt-1">Rakuten mobile inc.</p>
 
-        <p className="uppercase py-5 text-gray-300">
-          Started work... - Ended...
+        <p className="uppercase py-3 text-gray-300">
+          2021/06/01 - 2022/09/30
         </p>
 
-        <ul className="list-disc space-y-4 ml-5 text-lg">
+        <ul className="list-disc space-y-2 ml-4 text-sm ">
           <li>
-            Summary points Summary points Summary points Summary points Summary
-            points
+            通話、メッセージ送信、ポイント関連、その他各種機能の機能テスト
           </li>
           <li>
-            Summary points Summary points Summary points Summary points Summary
-            points
+            機能仕様書を元にテストケースの作成、小規模テストチームのマネジメント
           </li>
         </ul>
       </div>

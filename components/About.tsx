@@ -10,12 +10,12 @@ const About = (props: Props) => {
       transition={{ duration: 1.5 }}
       className="
       flex flex-col relative h-screen 
-      text-center md:text-left md:flex-row
+      text-center md:text-left md:flex-row md:w-
       max-w-7xl px-10 mx-auto pt-16 items-center"
     >
       <h3
         className="
-        absolute top-24 ml-6 uppercase 
+        absolute top-24 ml-6 uppercase
         tracking-[20px] text-gray-500 text-2xl"
       >
         About
@@ -35,7 +35,7 @@ const About = (props: Props) => {
         className="
           -mb-20 md:mb-0 flex-shrink-0 mt-24
           w-60 h-60 rounded-full object-cover
-          md:rounded-1g md:w-96 md:h-96 xl:w-[600px] xl:h-[600px]"
+          md:rounded-1g md:w-96 md:h-96 xl:w-[500px] xl:h-[500px]"
       />
 
       <div className="space-y-10 ps-0 md:px-10">

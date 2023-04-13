@@ -11,10 +11,13 @@ const Projects = (props: Props) => {
       transition={{ duration: 1.5 }}
       className="
       h-screen relative flex overflow-hidden flex-col text-left md:flex-row
-      max-w-full justify-evenly mx-auto mt-20 items-center z-0"
+      max-w-full justify-evenly pb-5 mx-auto mt-20 items-center z-0"
     >
-      <h3 className="absolute top-4 uppercase tracking-[20px] text-gray-500 text-2xl">
-        Project
+      <h3 className="
+        absolute top-24 ml-6 uppercase 
+        tracking-[20px] text-gray-500 text-2xl"
+      >
+      Project
       </h3>
 
       <div
@@ -37,11 +40,11 @@ const Projects = (props: Props) => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               src="https://source.unsplash.com/random"
-              className="w-2/3 h-4/5"
+              className="mt-10 xl:mt-32 xl:w-2/3 xl:h-4/5 object-contain"
               alt=""
             />
 
-            <div className="space-y-10 px-0 md:px-0 max-w-6xl">
+            <div className="space-y-5 xl:space-y-5 px-0 md:px-0 max-w-6xl">
               <h4 className="text-4xl font-semibold text-center">
                 <span className="underline decoration-[#F7AB0A]/50">
                   Case Study {i + 1} of {projects.length}:

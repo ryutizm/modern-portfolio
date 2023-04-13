@@ -12,7 +12,7 @@ const Skills = (props: Props) => {
       className="
       flex relative flex-col text-center md:text-left xl:flex-row 
       max-w-[2000px] xl:px-10 min-h-screen justify-center 
-      xl:space-y-0 mx-auto mt-20 items-center"
+      xl:space-y-0 mx-auto items-center"
     >
       <h3 
         className="
@@ -26,7 +26,7 @@ const Skills = (props: Props) => {
         Hover over a skill for currency profieciency
       </h3>
 
-      <div className="border grid grid-cols-2 md:grid-cols-3 gap-5 mt-40 sm:mt-30">
+      <div className="top-40 grid grid-cols-2 md:grid-cols-3 gap-5">
         <Skill />
         <Skill />
         <Skill />

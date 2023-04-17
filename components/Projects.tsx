@@ -11,10 +11,10 @@ const Projects = (props: Props) => {
       transition={{ duration: 1.5 }}
       className="
       relative flex overflow-hidden flex-col text-left md:flex-row
-      max-w-full justify-evenly pt-40 pb-5 mx-auto mt-28 items-center z-0"
+      max-w-full justify-evenly pt-5 pb-5 mx-auto mt-28 items-center z-0"
     >
       <h3 className="
-        absolute top-24 ml-6 uppercase 
+        absolute mt-5 top-1 ml-6 uppercase 
         tracking-[20px] text-gray-500 text-2xl"
       >
       Project
@@ -40,7 +40,7 @@ const Projects = (props: Props) => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               src="https://source.unsplash.com/random"
-              className="xl:mt-32 xl:w-2/3 xl:h-4/5 object-contain"
+              className="pt-16 xl:mt-32 xl:w-2/3 xl:h-4/5 object-contain"
               alt=""
             />
 

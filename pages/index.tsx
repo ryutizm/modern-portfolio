@@ -8,6 +8,7 @@ import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
+import Footer from "@/components/Footer";
 
 
 const Home: NextPage = () => {
@@ -47,21 +48,7 @@ const Home: NextPage = () => {
         <ContactMe />
       </section>
 
-      {/* <Link href="#header">
-        <div className="sticky bottom-5 cursor-pointer">
-          <div className="flex items-center">
-            <img
-              className="h-10 w-10 ml-auto mr-4 rounded-full filter grayscale hover:grayscale-0"
-              src="https://source.unsplash.com/random"
-              alt=""
-            />
-          </div>
-        </div>
-      </Link> */}
-
-      <footer>
-        
-      </footer>
+      <Footer />
     </div>
   );
 };

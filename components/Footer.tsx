@@ -10,7 +10,7 @@ const Footer = (props: Props) => {
       src="https://source.unsplash.com/random"
       alt=""
     /> */}
-    <p className="">@stan.inc</p>
+    <p>@stan.inc</p>
   </div>
   )
 }

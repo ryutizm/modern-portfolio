@@ -10,7 +10,7 @@ const Projects = (props: Props) => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
       className="
-      h-screen relative flex overflow-hidden flex-col text-left top-16 md:flex-row
+      h-screen relative flex overflow-hidden flex-col text-left top-24 md:flex-row
       max-w-full justify-evenly mx-auto items-center z-0"
     >
       <h3 className="

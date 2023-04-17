@@ -10,9 +10,9 @@ const Experience = (props: Props) => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
       className="
-      h-screen flex relative overflow-hidden flex-col 
+      flex relative pt-16 overflow-hidden flex-col 
       text-left md:flex-row max-w-full px-10 justify-evenly 
-      mx-auto mt-20 items-center"
+      mx-auto items-center"
     >
       <h3
         className="
@@ -24,7 +24,7 @@ const Experience = (props: Props) => {
 
       <div
         className="
-        w-full flex space-x-10 overflow-x-scroll pb-7 mt-2
+        w-full flex space-x-10 overflow-x-scroll mt-2
         snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 
         scrollbar-thumb-[#F7AB0A]/80"
       >

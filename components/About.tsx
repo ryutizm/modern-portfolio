@@ -9,9 +9,9 @@ const About = (props: Props) => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
       className="
-      flex flex-col relative h-screen 
+      flex flex-col relative pt-16
       text-center md:text-left md:flex-row md:w-
-      max-w-7xl px-10 mx-auto pt-16 items-center"
+      max-w-7xl px-10 mx-auto items-center"
     >
       <h3
         className="

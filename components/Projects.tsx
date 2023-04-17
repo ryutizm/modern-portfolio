@@ -10,8 +10,8 @@ const Projects = (props: Props) => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
       className="
-      h-screen relative flex overflow-hidden flex-col text-left md:flex-row
-      max-w-full justify-evenly pb-5 mx-auto mt-20 items-center z-0"
+      relative flex overflow-hidden flex-col text-left md:flex-row
+      max-w-full justify-evenly pt-40 pb-5 mx-auto mt-28 items-center z-0"
     >
       <h3 className="
         absolute top-24 ml-6 uppercase 
@@ -29,7 +29,7 @@ const Projects = (props: Props) => {
           <div
             className="
             w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center 
-            justify-center p-10 md:p-24 h-screen"
+            justify-center px-10 md:p-24"
           >
             <motion.img
               initial={{
@@ -40,7 +40,7 @@ const Projects = (props: Props) => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               src="https://source.unsplash.com/random"
-              className="mt-10 xl:mt-32 xl:w-2/3 xl:h-4/5 object-contain"
+              className="xl:mt-32 xl:w-2/3 xl:h-4/5 object-contain"
               alt=""
             />
 
@@ -52,7 +52,7 @@ const Projects = (props: Props) => {
                 UPS clone
               </h4>
 
-              <p className="text-lg text-center md:text-left">
+              <p className="pb-5 text-lg text-center md:text-left">
                 This is a dummy text This is a dummy text This is a dummy text
                 This is a dummy text This is a dummy text This is a dummy text
               </p>

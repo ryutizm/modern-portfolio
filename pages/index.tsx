@@ -20,9 +20,9 @@ const Home: NextPage = () => {
     >
       <Head>
         <title>ryutizm portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1"></meta> */}
       </Head>
-
+{/*  */}
       <Header />
 
       <section id="hero">
@@ -47,10 +47,6 @@ const Home: NextPage = () => {
 
       <section id="contact">
         <ContactMe />
-      </section>
-
-      <section id="contact">
-        <Footer />
       </section>
     </div>
   );

@@ -27,7 +27,7 @@ const Experience = (props: Props) => {
         w-full flex space-x-10 overflow-x-scroll mt-2
         snap-x snap-mandatory"
       >
-        <div className="snap-start">
+        <div className="snap-center">
           <ExperienceCard />
         </div>
         

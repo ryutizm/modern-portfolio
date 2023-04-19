@@ -22,13 +22,13 @@ const Projects = (props: Props) => {
 
       <div
         className="
-        relative w-full flex overflow-x-scroll overflow-y-hidden snap-mandatory z-20 snap-x snap-mandatory
+        relative top-10 w-full flex overflow-x-scroll overflow-y-hidden z-20 snap-x snap-mandatory
         scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80"
       >
         {projects.map((project, i) => (
           <div
             className="
-            w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center 
+            w-screen flex-shrink-0 snap-center flex flex-col space-y-20 items-center 
             justify-center px-10 md:p-24"
           >
             <motion.img
@@ -39,8 +39,8 @@ const Projects = (props: Props) => {
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://source.unsplash.com/random"
-              className="pt-16 xl:mt-32 xl:w-2/3 xl:h-4/5 object-contain"
+              src="/imgs/rakuten-panda-experience.png"
+              className="h-[180px] w-[300px] xl:mt-32 xl:w-2/3 xl:h-4/5"
               alt=""
             />
 

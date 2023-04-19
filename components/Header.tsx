@@ -8,7 +8,7 @@ const Header = ({}: Props) => {
   return (
     <header
       className="
-      sticky top-0 px-5 pt-5 flex items-start justify-between bg-[rgb(36,36,36)] max-w-7xl mx-auto 
+      sticky top-0 px-5 pt-5 flex items-start justify-between max-w-7xl mx-auto 
       z-30 xl:items-center"
         
     >

@@ -12,7 +12,7 @@ const Experience = (props: Props) => {
       className="
       h-screen flex relative overflow-hidden flex-col 
       text-left md:flex-row max-w-full px-10 justify-evenly 
-      mx-auto items-center"
+      mx-auto items-center xl:top-12"
     >
       <h3
         className="
@@ -24,7 +24,7 @@ const Experience = (props: Props) => {
 
       <div
         className="
-        w-full flex space-x-10 overflow-x-scroll mt-2
+        w-full flex space-x-10 overflow-x-scroll mt-2 xl:pt-52 scrollbar-thin scrollbar-thumb-[#F7AB0A]/80
         snap-x snap-mandatory"
       >
         <div className="snap-center">

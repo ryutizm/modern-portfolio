@@ -11,7 +11,7 @@ const About = (props: Props) => {
       className="
       h-screen flex flex-col relative top-20
       text-center md:text-left md:flex-row md:w-
-      max-w-7xl px-10 mx-auto items-center"
+      max-w-7xl xl:top-28 px-10 mx-auto items-center"
     >
       <h3
         className="

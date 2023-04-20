@@ -26,7 +26,7 @@ const Skills = (props: Props) => {
         Hover over a skill for currency profieciency
       </h3>
 
-      <div className="grid grid-cols-3 gap-5">
+      <div className="relative grid grid-cols-3 gap-7 xl:top-24">
         <Skill />
         <Skill />
         <Skill />

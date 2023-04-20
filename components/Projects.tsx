@@ -14,22 +14,23 @@ const Projects = (props: Props) => {
       max-w-full justify-evenly mx-auto items-center z-0"
     >
       <h3 className="
-        absolute top-40 ml-6 uppercase 
-        tracking-[20px] text-gray-500 text-2xl"
+        absolute top-40 ml-6 uppercase tracking-[20px] text-gray-500 text-2xl
+        xl:top-24"
       >
-      Project
+      Learning
       </h3>
 
       <div
         className="
-        relative top-10 w-full flex overflow-x-scroll overflow-y-hidden z-20 snap-x snap-mandatory
-        scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80"
+        relative top-20 w-full flex overflow-x-scroll overflow-y-hidden z-20 
+        xl:top-0
+        snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80"
       >
         {projects.map((project, i) => (
           <div
             className="
-            w-screen flex-shrink-0 snap-center flex flex-col space-y-20 items-center 
-            justify-center px-10 md:p-24"
+            w-screen flex-shrink-0 snap-center flex flex-col items-center 
+            justify-center px-10"
           >
             <motion.img
               initial={{
@@ -40,11 +41,11 @@ const Projects = (props: Props) => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               src="/imgs/rakuten-panda-experience.png"
-              className="h-[180px] w-[300px] xl:mt-32 xl:w-2/3 xl:h-4/5"
+              className="h-[180px] w-[300px] xl:mt-32 xl:w-[800px] xl:h-[350px]"
               alt=""
             />
 
-            <div className="space-y-5 xl:space-y-5 px-0 md:px-0 max-w-6xl">
+            <div className="space-y-5 px-0 md:px-0 max-w-6xl xl:mt-10">
               <h4 className="text-4xl font-semibold text-center">
                 <span className="underline decoration-[#F7AB0A]/50">
                   Case Study {i + 1} of {projects.length}:

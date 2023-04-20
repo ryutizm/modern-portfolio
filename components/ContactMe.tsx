@@ -27,44 +27,44 @@ const ContactMe = (props: Props) => {
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-3">
-        <h4 className="text-xl font-semibold text-center">
+      <div className="relative flex flex-col space-y-3 xl:top-16 items-center">
+        {/* <h4 className="text-xl font-semibold text-center">
           I have got just what you need.{" "}
           <span className="decoration-[#F7AB0A]/50 underline">Lets Talk.</span>
-        </h4>
+        </h4> */}
 
-        <div className="space-y-3 ml-3">
+        <div className="relative space-y-3 ml-3 xl:mr-20 xl:top-5">
           <div className="flex items-center space-x-5">
             <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">+1234567890</p>
+            <p className="text-3xl">+1234567890</p>
           </div>
 
           <div className="flex items-center space-x-5">
             <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">ryutizm1103@gmail.com</p>
+            <p className="text-3xl">ryutizm1103@gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5">
             <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">123 Developer Lane</p>
+            <p className="text-3xl">123 Developer Lane</p>
           </div>
         </div>
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-2 w-screen mx-auto"
+          className="flex flex-col space-y-2 w-screen mx-auto xl:pt-12 max-w-[600px]"
         >
           <div className="flex space-x-2">
             <input
               {...register("givenName")}
               placeholder="Given name"
-              className="contactInput"
+              className="contactInput xl:w-1/2"
               type="text"
             />
             <input
               {...register("surName")}
               placeholder="Surname"
-              className="contactInput"
+              className="contactInput xl:w-1/2"
               type="text"
             />
           </div>
